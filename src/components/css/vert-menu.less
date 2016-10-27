@@ -1,0 +1,60 @@
+.side_controls{
+  position: absolute;
+  height:980px;
+  width:41px;
+  background-color:#E8E8E8;
+  top: 50px;
+  bottom: 0;
+  left: 0px;
+  z-index:4
+}
+.vertMenu{
+  width: 50px;
+  position: absolute;
+}
+.leftBar>li{
+  width: 40px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  _margin-bottom: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+.leftBar>li:hover{
+  background-color:#ffffff;
+  border-bottom: 4px solid #DEDCDC !important;
+  transition:background-color, border-bottom ,0.5s;
+}
+.iconImg{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.currentOn{
+  background-color:#ffffff;
+  border-bottom: 4px solid #DEDCDC !important;
+}
+.searchBox{
+  position: relative;
+  display: inline-block;
+  width: 291px;
+  height: 50px;
+  background-color: #222222;
+  z-index:1;
+  overflow: hidden;
+}
+.searchBox:after{
+  content:' ';
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(255,255,255,0.8);
+  z-index: -1;
+  background-attachment: fixed;
+  filter:blur(5px);
+  margin:-15px;
+}

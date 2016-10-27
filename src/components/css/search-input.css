@@ -1,0 +1,13 @@
+.searchBoxCont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -130px;
+}
+.ant-input-group {
+  width: 260px;
+}
+.ant-search-input.ant-input-group .ant-input:first-child {
+  border-radius: 0;
+}

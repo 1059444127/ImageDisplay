@@ -1,0 +1,56 @@
+
+.leftBox{
+  width: 250px;
+  height: 950px;
+  position: absolute;
+  left:40px;
+  top: 50px;
+  overflow: hidden;
+  overflow-y:scroll;
+  background:#F1F1F1;
+  /*box-shadow:0 0 5px rgba(0,0,0,.35);*/
+  border-right:1px solid #D9D9D9;
+  z-index:1;
+}
+.leftBox:after{
+  content:' ';
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(255,255,255,0.8);
+  z-index: -1;
+  background-attachment: fixed;
+  filter:blur(2px);
+}
+.card{
+  width: 235px;
+  margin-left:2.5px;
+  margin-top:3px;
+  margin-bottom: 3px;
+  background: rgba(33,33,33,.50);
+  color:#666666;
+  border-color:rgba(33,33,33,.50);
+}
+.options{
+  width: 289px;
+}
+
+#left::-webkit-scrollbar
+{
+  width: 10px;
+  height: 10px;
+  background-color: rgba(220,220,220,0.5);
+}
+#left::-webkit-scrollbar-track
+{
+  border-radius:5px;
+}
+#left::-webkit-scrollbar-thumb
+{
+  background-color: rgba(180,180,180,0.4);
+  border-radius:5px;
+}
+
